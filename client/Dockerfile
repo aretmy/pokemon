@@ -1,4 +1,4 @@
-FROM tarantool/tarantool:1
+FROM tarantool/tarantool:2
 MAINTAINER doc@tarantool.org
 
 COPY *.lua /opt/tarantool/
