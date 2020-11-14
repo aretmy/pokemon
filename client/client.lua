@@ -1,4 +1,4 @@
-local http = require('curl').http()
+local http = require('http.client').new()
 local json = require('json')
 local URI = os.getenv('SERVER_URI')
 local fiber = require('fiber')
